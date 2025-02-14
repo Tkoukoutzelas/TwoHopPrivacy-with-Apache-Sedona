@@ -5,7 +5,9 @@ This repository holds the implementation for the Bachelor's Thesis of Themistokl
 To run the above code, the following need to be installed: <br />
 Python: 3.9 Version <br />
 Apache Spark: 3.5.4 Version <br />
-Apache Sedona : 1.7.0 Version
+Apache Sedona : 1.7.0 Version <br />
+
+The executable file is TwoHopSedona.py
 
 Also, the following arguments need to be provided respectively,before execution: NumberOfUsers,KAnonymity,NumberOfPOIs,NumberOfPartitions,NumberOfNearestNeighbors <br />
 
