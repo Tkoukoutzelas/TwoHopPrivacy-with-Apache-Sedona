@@ -12,4 +12,5 @@ Also, the following arguments need to be provided respectively,before execution:
 All the above arguments are integers
 
 # Important note
-The file PrivateNearestNeighbors2.py, has been taken from the original implementation. It holds two revised functions, adapted to the new Parallel Implementation in Apache Sedona
+The file PrivateNearestNeighbors2.py, has been taken from the original implementation. It holds two revised functions, adapted to the new Parallel Implementation in Apache Sedona. <br />
+Those functions are new_point_x and new_point_y
