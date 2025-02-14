@@ -48,10 +48,10 @@ sedona.conf.set("spark.sql.files.minPartitionNum",parts)
 start_time = time.time()
 
 #Set a checkpoint in HDFS
-sedona.sparkContext.setCheckpointDir("hdfs://snf-15511.ok-kno.grnetcloud.net:9000/user/themis")
+sedona.sparkContext.setCheckpointDir("hdfs://host/user/desiredLocation")
 
 #Loading the dataset and selecting the pois and the users
-dataset = sedona.read.options(header='True', inferSchema='True', delimiter=',').format("csv").load("hdfs://snf-15511.ok-kno.grnetcloud.net:9000/user/themis/nodes.csv.gz").repartition(parts)
+dataset = sedona.read.options(header='True', inferSchema='True', delimiter=',').format("csv").load("hdfs://host/user/nodes.csv.gz").repartition(parts)
 dataset.createOrReplaceTempView("nodes_1")
 pois=sedona.sql("SELECT id,ST_FlipCoordinates(st_geomFromWKT(geom)) as geom from nodes_1 WHERE id<="+str(p)+" ORDER BY id").repartition(parts).cache()
 pois.createOrReplaceTempView("pois")
