@@ -10,3 +10,6 @@ Apache Sedona : 1.7.0 Version
 Also, the following arguments need to be provided respectively,before execution: NumberOfUsers,KAnonymity,NumberOfPOIs,NumberOfPartitions,NumberOfNearestNeighbors <br />
 
 All the above arguments are integers
+
+# Important note
+The file PrivateNearestNeighbors2.py, has been taken from the original implementation. It holds two revised functions, adapted to the new Parallel Implementation in Apache Sedona
