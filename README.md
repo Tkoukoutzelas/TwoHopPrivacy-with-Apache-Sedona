@@ -7,4 +7,6 @@ Python: 3.9 Version <br />
 Apache Spark: 3.5.4 Version <br />
 Apache Sedona : 1.7.0 Version
 
-Also, the following arguments need to be provided respectively,before execution: NumberOfUsers,KAnonymity,NumberOfPOIs,NumberOfPartitions,NumberOfNearestNeighbors
+Also, the following arguments need to be provided respectively,before execution: NumberOfUsers,KAnonymity,NumberOfPOIs,NumberOfPartitions,NumberOfNearestNeighbors <br />
+
+All the above arguments are integers
