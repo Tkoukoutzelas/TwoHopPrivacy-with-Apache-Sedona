@@ -1,5 +1,5 @@
 # TwoHopPrivacy-with-Apache-Sedona
-This repository holds the implementation for the Bachelor's Thesis of Themistoklis Koukoutzelas. The implementation optimizes the execution time of Two-Hop Privacy-Preserving Nearest Friend Searches(https://link.springer.com/article/10.1007/s10115-018-1313-8)
+This repository holds the implementation for the Bachelor's Thesis of Themistoklis Koukoutzelas in Applied Informatics. The implementation optimizes the execution time of Two-Hop Privacy-Preserving Nearest Friend Searches(https://link.springer.com/article/10.1007/s10115-018-1313-8)
 
 # Setup
 To run the above code, the following need to be installed: <br />
