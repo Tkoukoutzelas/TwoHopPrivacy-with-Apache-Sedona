@@ -16,3 +16,7 @@ All the above arguments are integers
 # Important note
 The file PrivateNearestNeighbors2.py, has been taken from the original implementation. It holds two revised functions, adapted to the new Parallel Implementation in Apache Sedona. <br />
 Those functions are new_point_x and new_point_y
+
+# Important note 2
+The needed dataset is available here : https://drive.google.com/file/d/1Q44J18RExysz2CDg4BhdFmhcmMfI0FVV/view?usp=sharing. <br />
+It must be imported as it is compressed, during execution
